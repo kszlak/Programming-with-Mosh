@@ -8,5 +8,7 @@ class Employee:
     def all_info(self):
         return self.fname, self.lname, self.email
 
-hr_specialist = Employee('John', 'Smith', '9000')
+hr_specialist = Employee('John', 'Smith', 9000)
+software_tester1 = Employee('Maria', 'Lindt', 10000)
 print(hr_specialist.all_info())
+print(software_tester1.all_info())
